@@ -1,0 +1,254 @@
+{% load static %}
+<!doctype html>
+<!--
+	Author by FreeHTML5.co
+	Twitter: https://twitter.com/fh5co
+	Facebook: https://fb.com/fh5co
+	URL: https://freehtml5.co
+-->
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/slick.css' %}">
+	<title>Autobiography</title>
+</head>
+<body>
+
+	<!-- Navigation -->
+	<nav class="site-navigation">
+		<div class="site-navigation-inner site-container">
+			<div class="main-navigation">
+				<ul class="main-navigation__ul">
+					<li><a href="#">Homepage</a></li>
+					<li><a href="https://eaples.com/">My shop</a></li>
+				</ul>
+			</div>
+			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script>
+				function myFunction(x) {
+					x.classList.toggle("change");
+				}
+			</script>
+
+		</div>
+	</nav>
+	<!-- Navigation end -->
+
+	<!-- Top banner -->
+	<section class="fh5co-top-banner">
+		<div class="top-banner__inner site-container">
+			<div class="top-banner__image">
+				<img src="{% static './images/photo_1_3.jpg' %}" alt="author image">
+			</div>
+			<div class="top-banner__text">
+				<div class="top-banner__text-up">
+					<span class="brand-span">Hello! I'm</span>
+					<h2 class="top-banner__h2">Dmitry</h2>
+				</div>
+				<div class="top-banner__text-down">
+					<h2 class="top-banner__h2">Pinchuk</h2>
+					<span class="brand-span">Influencer, Traveler, Enterpreneur</span>
+				</div>
+				<p>One Man. One Mission. Can He Go Beyond?</p>
+			</div>
+		</div>
+	</section>
+	<!-- Top banner end -->
+
+	<!-- About me -->
+	<section class="fh5co-about-me">
+		<div class="about-me-inner site-container">
+			<article class="portfolio-wrapper">
+				<div class="portfolio__img">
+					<img src="{% static './images/photo_4.jpg' %}" class="about-me__profile" alt="about me profile picture">
+				</div>
+				<div class="portfolio__bottom">
+					<div class="portfolio__name">
+						<span>D</span>
+						<h2 class="universal-h2">mitry Pinchuk</h2>
+					</div>
+					<p>Dmitry Pinchuk is a personal coach, a sport-lover and a successful E-commerce owner.</p>
+				</div>
+			</article>
+			<div class="about-me__text">
+				<div class="about-me-slider">
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">About me</h2>
+						<p><span>H</span>e was a ukrainian CEO in Badge4U specializing in ukrainian department of factory, have created an online E-commerce Business and social media marketing services. He also stays true to God. Also appeared on Polish national television and. Famous for his morning topless runs and on-the-edge challenges like popular "Spartan Week" and so on. Developed mindsets of thousands of people worldwide by motivating them to become best versions of theirselves</p>
+						<h4>Author</h4>
+						<p class="p-white">See me</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-me-bckg"></div>
+	</section>
+	<!-- About me end -->
+
+
+
+	<!-- Blog -->
+	<section class="fh5co-blog">
+		<div class="site-container">
+			<h2 class="universal-h2 universal-h2-bckg">My Blog</h2>
+			<div class="blog-slider blog-inner">
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="{% static './images/photo_3.jpg' %}" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>How to deal with trash situations</h4>
+						<span>On August 28, 2022</span>
+						<p>Be never afraid of hard work, forget about pride and work hard until job is done. Show the best quality and never be arrogant.</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="{% static './images/photo_8.jpg' %}" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>Rest is the key</h4>
+						<span>On June 16, 2022</span>
+						<p>To get the job done well - prioritise the rest. Don't scroll social media but instead meditate or sleep. Even at the workplace, charge workers to do manual work.</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="{% static './images/photo_6.jpg' %}" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>Gymnasium - temple of your body and soul.</h4>
+						<span>On February 6, 2023</span>
+						<p>Lifting heavy weights is going to give significant changes to your body and mind. That's the simple tool that will make u confident and assertive.WE GO JIM!</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="{% static './images/photo_7.jpg' %}" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>Don't forget about going out and social life</h4>
+						<span>On November 25, 2022</span>
+						<p>Don't stay monk forever and let yourself go out from time to time</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blog end -->
+
+	<!-- Quotes -->
+	<section class="fh5co-quotes">
+		<div class="site-container">
+			<div class="about-me-slider">
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying</h2>
+					<p>“Tough men, that keeps pushing whatever happens.”</p>
+					<img src="{% static './images/quotes.svg' %}" alt="quotes svg">
+					<h4>Artem P.</h4>
+				</div>
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying </h2>
+					<p>“He was a kind of busy person, but right now he decided to destroy the modern society.”</p>
+					<img src="{% static './images/quotes.svg' %}" alt="quotes svg">
+					<h4>Maxwell Kh. -US</h4>
+				</div>
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying </h2>
+					<div class="footer-info__left">
+						<img src="{% static './images/photo_11.jpg' %}">
+					</div>
+					<img src="{% static './images/quotes.svg' %}" alt="quotes svg">
+					<h4>Elizabeth P.</h4>
+				</div>
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying </h2>
+					<p>“Purposeful, but proud person. He is freedom-loving and loves self-development, which he is actively engaged in. In political terms, he is not very free to orient himself”</p>
+					<img src="{% static './images/quotes.svg' %}" alt="quotes svg">
+					<h4>Dr.Max F.</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Quotes end -->
+
+	<!-- Social -->
+	<section class="fh5co-social">
+		<div class="site-container">
+			<div class="social">
+				<h5>Follow me!!</h5>
+				<div class="social-icons">
+					<a href="#" target="_blank"><img src="{% static './images/social-twitter.png' %}" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="{% static './images/social-pinterest.png' %}" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="{% static './images/social-youtube.png' %}" alt="social icon"></a>
+					<a href="https://www.instagram.com/dmitrypinchuk_/" target="_blank"><img src="{% static './images/inst_logo2.png' %}" alt="social icon"></a>
+				</div>
+				<h5>Share it!</h5>
+			</div>
+		</div>
+	</section>
+	<!-- Social -->
+
+	<!-- Footer -->
+	<footer class="site-footer">
+		<div class="site-container">
+			<div class="footer-inner">
+				<div class="footer-info">
+					<div class="footer-info__left">
+						<img src="{% static './images/footer-img.jpg' %}" alt="about me image">
+						<p>Read more about me</p>
+					</div>
+					<div class="footer-info__right">
+						<h5>Get In Touch</h5>
+						<p class="footer-phone">Phone: +958734902847</p>
+						<p>Email : reviews@onesecond.com</p>
+						<div class="social-icons">
+							<a href="#" target="_blank"><img src="{% static './images/social-twitter.png' %}" alt="social icon"></a>
+							<a href="#" target="_blank"><img src="{% static './images/social-pinterest.png' %}" alt="social icon"></a>
+							<a href="#" target="_blank"><img src="{% static './images/social-youtube.png' %}" alt="social icon"></a>
+							<a href="https://www.instagram.com/dmitrypinchuk_/" target="_blank"><img src="{% static './images/inst_logo2.png' %}" alt="social icon"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-contact-form">
+					<h5>Contact Form</h5>
+					<form class="contact-form" method="POST" action="{% url 'send_mail' %}">
+						{% csrf_token %}
+						<div class="contact-form__input">
+							<input type="text" name="name" placeholder="Name">
+							<input type="email" name="email" placeholder="Email">
+						</div>
+						<input type="submit" name="submit" value="Submit" class="submit-button">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="site-container footer-bottom-inner">
+				<p>© 2023 Artem | All rights Reserved.</p>
+				<div class="footer-bottom__img">
+					<img src="{% static './images/footer-mastercard.png' %}" alt="footer image">
+					<img src="{% static './images/footer-paypal.png' %}" alt="footer image">
+					<img src="{% static './images/footer-visa.png' %}" alt="footer image">
+					<img src="{% static './images/footer-fedex.png' %}" alt="footer image">
+					<img src="{% static './images/footer-dhl.png' %}" alt="footer image">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end -->
+
+	<!-- Scripts -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/slick.min.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
